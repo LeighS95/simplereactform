@@ -27,18 +27,21 @@ export class FormPersonalDetails extends Component {
                         onChange = { handleChange('job') }
                         defaultValue = { values.job }
                     />
+                    <br/>
                     <TextField 
                         hintText = "Enter City Name"
                         floatingLabelText = "City Name"
                         onChange = { handleChange('city') }
                         defaultValue = { values.city }
                     />
+                    <br/>
                     <TextField 
                         hintText = "Enter Country"
                         floatingLabelText = "Country"
                         onChange = { handleChange('country') }
                         defaultValue = { values.country }
                     />
+                    <br/>
                     <RaisedButton 
                         label = "Continue"
                         primary = { true }
